@@ -32,7 +32,7 @@ One of the biggest issues with cryptocurrencies is volatility which makes it har
 There are various ways to predict the prices. Some of the most popular techniques are:
 1. **Regression**: It is one of the most significantly used predictive modelling techniques. Regression is used to fit a predictive model to an observed data set of values of the response and explanatory variables. Models like Logarithmic Regression are well suited as shown:
 
-  ![picture](https://preview.redd.it/1jut7zj49vv71.png?width=408&format=png&auto=webp&s=e5999ce3422ae541a7d345b1cbb1f37242041e42)
+  ![Screenshot](Pictures/download2.png)
 
 2. **Support Vector Machines (SVM)**: SVMs are very popular for classification problems. It deals with parameters like Kernel, Hyper plane and Decision Boundary.
 
@@ -40,7 +40,8 @@ There are various ways to predict the prices. Some of the most popular technique
 
 The performance of these techniques can be seen in this diagram:
 
-  ![picture](https://www.researchgate.net/profile/Devrim-Uenal/publication/342692245/figure/fig9/AS:941465404469284@1601474252820/Performance-of-LSTM-SANN-SVM-and-ANN-regression-models-based-on-30-days-horizon-of.png)
+  ![Screenshot](Pictures/download3.png)
+
 
 Using any of these techniques, we can train our model on cryptocurrency prices of past years and then from the learning of that model, we can test and predict the present and future values of these cryptocurrencies.
 
@@ -59,7 +60,8 @@ We are using a multilayer RNN Long Term Short Term Memory (LSTM) model having 3 
 In RNN, the information goes through a cycle. When making a decision, it considers the current input and also what it has learned from the inputs it has received previously.
 
 The image below illustrates how the flow of information works in the RNN algorithm:
-![picture](https://editor.analyticsvidhya.com/uploads/74558RNNs.png)
+![Screenshot](Pictures/download4.png)
+
 
 In an LSTM there are three gates: 
 1. Input Gate
@@ -67,7 +69,8 @@ In an LSTM there are three gates:
 3. Output Gate
 
 These gates determine whether or not to let new input in (input gate), delete the information because it isn’t important (forget gate), or let it impact the output at the current timestep (output gate). Below is an illustration of an RNN with its three gates:
-![picture](https://editor.analyticsvidhya.com/uploads/89215LSTM.png)
+![Screenshot](Pictures/download5.png)
+
 
 The gates in an LSTM are analog in the form of sigmoids, so they also range from zero to one. This helps in backpropagation.
 
@@ -77,3 +80,8 @@ Thus we can train our data using this model and then predict the future prices o
 ### **Problems with our approach**
 
 The RNN-LSTM model that we have used to predict the prices of crypto currency is very accurate on the test data, however, it fails to predict the prices very accurately for the long term. We observed that the model can be used for predicting prices only for the next 5-7 days without significant loss in accuracy. That is why we have only used the model to predict the prices for the next 7 days.
+
+### **Implementation**
+
+The Implementation can be found in the model.ipynb file
+

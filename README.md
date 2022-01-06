@@ -22,7 +22,7 @@ The main goal is to develop a trustworthy prediction model based on historical v
   * How can machine learning algorithms assist investors and decision-makers in predicting cryptocurrency prices?
   * 'What is the best model for predicting future cryptocurrency prices?
 
-###**Problem Definition** 
+### **Problem Definition** 
 
 Cryptocurrencies are a highly popular asset in the modern age of the internet and are set to take center stage with the advent of Web3.0 . More and more wish to acquire such crypto assets. There are a lot of cryptocurrencies in the market currently including Ethereum, Bitcoin, Litecoin, Dogecoin, Matic Network, etc which are traded over several crypto exchanges such as Binance, Wazir and Coinbase. 
 One of the biggest issues with cryptocurrencies is volatility which makes it harder to track its prices. This makes it difficult for users to invest properly. They are not able to decide how many coins to buy and when. To solve this problem, we want to make a cryptocurrency price predictor which will predict the prices of 3 currencies - ETH, BTC, LTC. The model will then help us allocate different amounts of sum(buying and selling both) to different currencies depending on the amount entered by the user.

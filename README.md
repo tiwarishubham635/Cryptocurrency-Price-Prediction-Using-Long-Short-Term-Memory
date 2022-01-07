@@ -1,4 +1,4 @@
-# **Crptocurrency Price Prediction Using Long-Short Term Memory**
+# **Cryptocurrency Price Prediction Using Long-Short Term Memory**
 
 ---
 
